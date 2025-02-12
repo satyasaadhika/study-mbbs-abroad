@@ -20,7 +20,7 @@ study-mbbs-abroad/ │── index.html │── css/ │── js/ │── a
 - Google Analytics  
 
 ## 📌 Deployment  
-[Live Demo](https://)  
+[Live Demo](https://study-mbbs-abroad-kappa.vercel.app/)  
 
 ## 🛠️ Setup Instructions  
 1. Clone repository:  
