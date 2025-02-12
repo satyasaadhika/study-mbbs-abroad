@@ -15,7 +15,7 @@ body{
   width: 80px;
   height: 60px;
   transition: all 0.3s ease;
-  margin-left: 40px;
+  margin-left: 80px;
 }
 .navbar-brand img:hover {
   transform: scale(1.1); /* Slight zoom effect on hover */
@@ -25,8 +25,8 @@ body{
 }
 
 .nav-item .nav-link{
-  color: rgb(0, 0, 0);
-  font-size: 17px;
+  color: #333;
+  font-size: 1.25rem;
   font-weight: 500;
   margin-right: 1rem;
 }
@@ -164,5 +164,15 @@ body{
   color: white;
 }
 
+/* Section: Benefit of MBBS in Abroad in 2025 */
+.Benefit-section{
+  color: #333;
+}
+.Benefit-section h1{
+  color:#00aaa1 ;
+}
 
+.Benefit-section i{
+  color: #00aaa1;
+}
     
