@@ -179,13 +179,13 @@ body{
 /*Section: Top Countries: Russia, Uzbekistan, Kazakhstan, Philippines, Georgia, Kyrgyzstan, Egypt*/
 .top_countries{
   margin-top: 30px;
-  margin-bottom: 150px;
+  margin-top: 30px;
   background-color: #034380;
   padding-bottom: 100px;
   padding-top: 50px;
 }
 .col-lg-5 h3{
-  color: #00aaa1;
+  color: #fbfdfd;
   font-size: 2.25rem;
   font-weight: bold;
 }
@@ -239,7 +239,7 @@ z-index: 10;
 }
 .col-lg-7 .card-body{
   background-color: #00aaa1;
-  color: aliceblue;
+  color: white;
 }
 
 @media (max-width: 560px) {
@@ -254,5 +254,131 @@ z-index: 10;
   margin-bottom: 25px;
 }
 }
+
+/*Admission Process & Eligibility: Steps for applying*/
+.hero-section {
+  background-color: #f7f7f7;
+  padding: 30px 0;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.hero-section h1 {
+  font-size: 2.5rem;
+}
+.section-title {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.Admission-Process{
+  margin-top: 40px;
+}
+.Admission-Process p{
+  font-size: 18px;
+}
+.Admission-Process .section h3{
+  font-size: 22px;
+}
+.step {
+  margin-bottom: 40px;
+}
+.step h3 {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.step p {
+  font-size: 1.1rem;
+}
+ .icon {
+  font-size: 1.50rem;
+  color: #00aaa1;
+}
+
+
+form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+form h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+label {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 6px;
+  display: block;
+}
+
+input, select {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], select {
+  background-color: #f9f9f9;
+}
+
+input:focus, select:focus {
+  border-color: #007bff;
+  outline: none;
+  background-color: #e8f0fe;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  background-color: #00aaa1;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #07cac0;
+}
+
+@media (max-width: 480px) {
+  form {
+      padding: 20px;
+  }
+}
+.contact_section{
+  background-image: url(/assets/images/newbannerimg.webp);
+  margin-top: 50px;
+  padding-bottom: 60px;
+}
+.contact_sec{
+  color: #034380;
+}
+.contact_sec h2{
+  font-size: 2.15rem;
+  margin-bottom: 20px;
+}
+.contact_sec p{
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+footer{
+  background-color: #034380;
+  background-position: cover;
+  background-repeat: no-repeat;
+}
+
 
     
