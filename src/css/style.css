@@ -175,4 +175,84 @@ body{
 .Benefit-section i{
   color: #00aaa1;
 }
+
+/*Section: Top Countries: Russia, Uzbekistan, Kazakhstan, Philippines, Georgia, Kyrgyzstan, Egypt*/
+.top_countries{
+  margin-top: 30px;
+  margin-bottom: 150px;
+  background-color: #034380;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+.col-lg-5 h3{
+  color: #00aaa1;
+  font-size: 2.25rem;
+  font-weight: bold;
+}
+.col-lg-5 p{
+  color: #faf9f9;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.card img {
+  height: 350px;
+  object-fit: cover;
+}
+.carousel-control-prev {
+  margin-left: 85%;
+}
+.carousel-control-prev , .carousel-control-next{
+  margin-top: 60%;
+}
+.carousel-control-prev-icon, 
+.carousel-control-next-icon {
+background-color: black; /* Change to any visible color */
+border-radius: 50%; /* Optional: Makes buttons circular */
+padding: 10px;
+}
+#cardCarousel {
+min-height: 300px;
+}
+.carousel-control-prev, 
+.carousel-control-next {
+z-index: 10;
+}
+.carousel-controls {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  gap: 10px;
+}
+.carousel-control-prev, .carousel-control-next {
+  width: 40px;
+  height: 40px;
+  background-color: #ffb703; /* Yellow background */
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  filter: invert(100%);
+}
+.col-lg-7 .card-body{
+  background-color: #00aaa1;
+  color: aliceblue;
+}
+
+@media (max-width: 560px) {
+ 
+.carousel-control-prev {
+  margin-left: 0;
+}
+.carousel-control-prev , .carousel-control-next{
+  margin-top: 100%;
+}
+.col-md-6{
+  margin-bottom: 25px;
+}
+}
+
     
